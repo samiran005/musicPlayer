@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* common css class */
+.container {
+    position: relative;
+    width: 800px;
+    min-width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.wraper {
+    position: relative;
+    min-height: 100vh;
+    background-color: lightblue;
+
+}
+
+/* navbar part */
+.nav-bar {
+    background-color: black;
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+li img {
+    width: 50px;
+    margin: 0 .5rem;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+/* music list part */
+.bg-img {
+    min-height: 27.95rem;
+    height: auto;
+    width: 80%;
+    margin:  auto;
+    background: url(./pexels-karolis-samuolis-10096370.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(163, 74, 55);
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+    
+}
+
+.bg-img h1 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+
+
+/* bottom part  */
+.bottom {
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    min-height: 110px;
+    color: white;
+}
+.icons {
+    margin: 0 auto;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 100%;
+    margin: 1rem 0 .6rem 0;
+
+}
+.bottom-arrange {
+    text-align: center;
+}
+
+
+
